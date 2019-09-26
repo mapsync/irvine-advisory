@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 import * as Icon from 'react-feather';
 import Content, { HTMLContent } from '../components/Content'
 
-export const ContactPageTemplate = ({ content, contentComponent, name, address, city_state_zip, phone, email }) => {
+export const ContactPageTemplate = ({ content, contentComponent, name, address, city_state_zip, phone, after_hours, fax, hours }) => {
   const PageContent = contentComponent || Content
   return (
     <div>
@@ -25,23 +25,18 @@ export const ContactPageTemplate = ({ content, contentComponent, name, address, 
             Phone
           </div>
           <div className="card-body">
-            T: <a href={"tel:1-" + phone}>{phone}</a>
+            T: <a href={"tel:1-" + phone}>{phone}</a><br />
+            F: {fax}<br /><br />
+            After Hours Phone
+            T: <a href={"tel:1-" + after_hours}>{after_hours}</a>
           </div>
         </div>
         <div className="card">
           <div className="card-header">
-            Email
+            Hours
           </div>
           <div className="card-body">
-            <a href={"mailto:" + email}>{email}</a>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-header">
-            Information
-          </div>
-          <div className="card-body">
-            <PageContent className="content" content={content} />
+            {hours}
           </div>
         </div>
       </div>
@@ -71,7 +66,9 @@ const ContactPage = ({ data }) => {
         address={post.frontmatter.address}
         city_state_zip={post.frontmatter.city_state_zip}
         phone={post.frontmatter.phone}
-        email={post.frontmatter.email}
+        after_hours={post.frontmatter.after_hours}
+        fax={post.frontmatter.fax}
+        hours={post.frontmatter.hours}
         contentComponent={HTMLContent}
         content={post.html}
       />
@@ -94,7 +91,9 @@ export const contactPageQuery = graphql`
         address,
         city_state_zip,
         phone,
-        email
+        after_hours,
+        fax,
+        hours
       }
     }
   }
