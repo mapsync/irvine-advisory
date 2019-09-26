@@ -9,7 +9,7 @@ const Navbar = class extends React.Component {
      <div>
        <div className="tab-menu-container show-xs">
         <div className="tab-menu">
-          <div className="client-name">City of Jamestown</div>
+          <div className="client-name">Irvine Municipal Utilities</div>
           <div className="btn-group btn-group-block">
             <Link className="btn pt-2" activeClassName="active" to="/">
               <Icon.AlertTriangle size={26}/>
@@ -26,7 +26,7 @@ const Navbar = class extends React.Component {
               <Icon.Phone size={26}/>
               <div>Contact</div>
             </Link>
-            <a className="btn pt-2" rel="noopener noreferrer" href="https://portal.utilitydistrict.com/7211" target="_blank">
+            <a className="btn pt-2" rel="noopener noreferrer" href="https://www.nexbillpay.net/irvineutilities/BillPay/SignIn" target="_blank">
               <Icon.DollarSign size={26}/>
               <div>Bill Pay</div>
             </a>
@@ -34,7 +34,7 @@ const Navbar = class extends React.Component {
         </div>
       </div>
       <div className="container grid-xs hide-xs">
-        <div className="client-name">City of Jamestown</div>
+        <div className="client-name">Irvine Municipal Utilities</div>
         <header className="navbar">
           <section className="navbar-section text-right">
             <Link className="btn btn-link" activeClassName="active" to="/">
@@ -53,7 +53,7 @@ const Navbar = class extends React.Component {
             <Link className="btn btn-link" activeClassName="active" to="/contact">
               Contact
             </Link>
-            <a className="btn btn-link" rel="noopener noreferrer" href="https://portal.utilitydistrict.com/7211" target="_blank">
+            <a className="btn btn-link" rel="noopener noreferrer" href="https://www.nexbillpay.net/irvineutilities/BillPay/SignIn" target="_blank">
               Bill Pay&nbsp;<Icon.ExternalLink size={16}/>
             </a>
           </section>

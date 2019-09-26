@@ -49,7 +49,7 @@ export const BlogPostTemplate = ({
       </div>
       <div className="footer">
         <div className="d-inline-block float-right">
-          <a className="btn btn-sm btn-link tooltip tooltip-left" data-tooltip="Settings" rel="noopener noreferrer" href="https://myjtky.geosync.cloud/admin" target="_blank">
+          <a className="btn btn-sm btn-link tooltip tooltip-left" data-tooltip="Settings" rel="noopener noreferrer" href="https://imuwater.geosync.cloud/admin" target="_blank">
             <Icon.Settings size={16}/>
           </a>
         </div>
