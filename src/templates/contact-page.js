@@ -27,7 +27,7 @@ export const ContactPageTemplate = ({ content, contentComponent, name, address, 
           <div className="card-body">
             T: <a href={"tel:1-" + phone}>{phone}</a><br />
             F: {fax}<br /><br />
-            After Hours Phone
+            After Hours Phone<br />
             T: <a href={"tel:1-" + after_hours}>{after_hours}</a>
           </div>
         </div>
