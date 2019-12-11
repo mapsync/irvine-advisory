@@ -1,0 +1,9 @@
+---
+templateKey: blog-post
+title: '*TEST* Report a Leak'
+date: 2019-12-11T13:54:44.914Z
+description: 'Report Potential Water Loss '
+---
+Help us prevent water loss.  If you see clear water running where it normally doesn't, even during rain events, it may be a leak.  If you see water standing or a patch of green grass during droughts, or if you have continuous "soggy spot" in your yard,  it may be a leak!  If you see somenting like this, just give our office a call and we will dispatach a service person to investigate.  There is only so much drinkable water on the planet, lets not waste it!
+
+![](/img/images.jpg)
