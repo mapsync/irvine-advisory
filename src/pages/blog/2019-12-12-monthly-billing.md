@@ -5,6 +5,10 @@ date: 2019-12-12T13:29:16.260Z
 draft: true
 description: ''
 ---
+
+
+
+
 IMU water/sewer bills due on 16th of every month.  If not paid by the 16th, a 10% penalty will be added to bill.  
 
 Cut-off date for delinquent IMU  water/sewer balances occur the first week of the following month.
