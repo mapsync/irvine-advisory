@@ -7,9 +7,7 @@ description: ''
 ---
 There is a BOIL WATER ADVISORY in effect for the following area:
 
-
-
-
+TEST ONLY---NO BOIL ADVISORY AT PRESENT TIME.  
 
 
 
