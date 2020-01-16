@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: MONTHLY BILLING
 date: 2019-12-12T14:34:28.759Z
-draft: true
+draft: false
 description: ''
 ---
 **In order to avoid service disruptions, delinquent balances must be paid IN FULL by the cut-off date.....NO EXCEPTIONS**
