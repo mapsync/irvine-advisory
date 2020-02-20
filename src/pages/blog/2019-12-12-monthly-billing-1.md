@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: MONTHLY BILLING
-date: 2019-12-12T14:34:28.759Z
+date: 2019-02-20T14:34:00.000Z
 draft: false
 description: ''
 ---
