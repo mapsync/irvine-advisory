@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: BOIL WATER ADVISORY
-date: 2020-02-06T21:17:54.571Z
+date: 2020-03-05T21:17:00.000Z
 draft: false
 description: BOIL WATER ADVISORY ISSUED
 ---
