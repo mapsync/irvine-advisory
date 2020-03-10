@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: BOIL WATER ADVISORY *LIFTED*
 date: 2020-03-07T14:17:00.000Z
-draft: false
+draft: true
 description: Boil water advisory LIFTED
 ---
 ![](/img/boilwater-lifted.png)
